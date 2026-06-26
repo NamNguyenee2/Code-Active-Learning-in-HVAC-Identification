@@ -7,7 +7,7 @@
 [![BOPTEST](https://img.shields.io/badge/BOPTEST-0.8.0-0db7ed.svg?logo=docker&logoColor=white)](https://ibpsa.github.io/project1-boptest/)
 
 <p align="center">
-  <img src="../HVAC.png" alt="HVAC thermal dynamics system considered in this work" width="650">
+  <img src="HVAC.png" alt="HVAC thermal dynamics system considered in this work" width="750">
 </p>
 
 Code accompanying [*"Active Learning for Optimal Experimental Design in Machine
@@ -21,8 +21,13 @@ classes: a feedforward neural network (NN) and a Gaussian process (GP).
 ## 📁 Repository layout
 
 ```
-best_air/
-├── GP/                           # Gaussian process experiments
+Code/
+├── README.md
+├── requirements.txt
+├── HVAC.png
+├── Tight_constraints.png
+└── best_air/
+    ├── GP/                        # Gaussian process experiments
 │   ├── best_air_PL_GP.ipynb      # Passive learning baseline
 │   ├── best_air_AL_GS_GP.ipynb   # Greedy Sampling
 │   ├── best_air_AL_IDW_GP.ipynb  # Inverse Distance Weighting
@@ -163,7 +168,7 @@ points, ramp constraint of 0.8°C on $T^s$ / 2% on $\dot{m}$), comparing all
 acquisition functions against the passive-learning baseline:
 
 <p align="center">
-  <img src="../Tight_constraints.png" alt="RMSE learning curves under tight ramp constraints" width="650">
+  <img src="Tight_constraints.png" alt="RMSE learning curves under tight ramp constraints" width="700">
 </p>
 
 ## 📜 Citation
