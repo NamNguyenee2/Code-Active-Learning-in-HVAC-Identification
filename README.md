@@ -175,7 +175,8 @@ acquisition functions against the passive-learning baseline:
 
 If you use this code, please cite:
 
-> @misc{nguyen2026activelearningoptimalexperimental,
+```
+@misc{nguyen2026activelearningoptimalexperimental,
       title={Active Learning for Optimal Experimental Design in Machine Learning-Based Building Energy System Identification}, 
       author={Nam T. Nguyen and Truong X. Nghiem},
       year={2026},
@@ -184,6 +185,7 @@ If you use this code, please cite:
       primaryClass={eess.SY},
       url={https://arxiv.org/abs/2606.25301}, 
 }
+```
 
 ## ✉️ Corresponding author
 📧 Email: nam.nguyen2@ucf.edu
